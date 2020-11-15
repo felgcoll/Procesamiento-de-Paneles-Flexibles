@@ -32,7 +32,8 @@ def click_event(event, x, y, flags, param):
         cv2.imshow('image', img)
 
 #Abrir el fichero a analizar
-img = cv2.imread('.\Procesamiento-de-Paneles-Flexibles\Dataset\0030.jpg')
+fichero = '.\Dataset 1 - Filamentos\0030.jpg'
+img = cv2.imread(fichero)
 
 #Abrir la interfaz
 cv2.namedWindow('image', cv2.WINDOW_NORMAL)
